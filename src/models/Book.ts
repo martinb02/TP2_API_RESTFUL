@@ -1,12 +1,5 @@
-import mongoose, { Document, Schema } from 'mongoose';
-
-interface IBook extends Document {
-  title: string;
-  author: string;
-  publishedYear?: number;
-  genre?: string;
-  available: boolean;
-}
+import mongoose, { Schema } from 'mongoose';
+import { IBook } from '../interfaces/IBook';
 
 const BookSchema: Schema = new Schema({
   title: { type: String, required: true, unique: true },
