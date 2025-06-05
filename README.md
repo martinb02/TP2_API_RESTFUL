@@ -59,12 +59,12 @@ La API estará disponible en http://localhost:3000/api/books.
 ## Endpoints
 
    ```bash
-   Método	Ruta	    Descripción
-   GET	    /books	    Listar todos los libros
-   GET	    /books/:id	Obtener un libro por ID
-   POST	    /books  	Crear un nuevo libro
-   PATCH	/books/:id	Actualizar un libro existente
-   DELETE	/books/:id	Eliminar un libro
+   Método	Ruta	     Descripción
+   GET     /books       Listar todos los libros
+   GET     /books/:id   Obtener un libro por ID
+   POST    /books       Crear un nuevo libro
+   PATCH   /books/:id   Actualizar un libro existente
+   DELETE  /books/:id   Eliminar un libro
    ```
 
 # Ejemplo de Uso con Postman
